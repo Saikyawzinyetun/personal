@@ -5,14 +5,14 @@
   "type": "module",
   "homepage": "https://saikyawzinyetun.github.io/personal/",
 
-  "scripts": {
+   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy":   "gh-pages -d dist",
     "preview": "vite preview"
-    
   },
+
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
